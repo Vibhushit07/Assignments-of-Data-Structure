@@ -80,6 +80,7 @@ public class bstInSpiralForm {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the number of nodes of Binary Search Tree");
         int nodes = s.nextInt();
+        System.out.println("Enter the elements of bst");
         while(nodes-- > 0){
             int k = s.nextInt();
             bst.root = bst.insert(bst.root, k);
